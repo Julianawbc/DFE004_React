@@ -1,0 +1,16 @@
+.filmes-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.filme {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.filme img {
+  max-width: 100%;
+  height: auto;
+}
+
